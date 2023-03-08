@@ -21,7 +21,7 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   session({
-    secret: process.env.SESSION_SECRET,
+    secret: "jhab75fsvab",
     resave: false,
     saveUninitialized: true,
     cookie: { maxAge: 1000 * 60 * 60 }, // session expires in 1 hour
